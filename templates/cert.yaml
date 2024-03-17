@@ -1,0 +1,9 @@
+{{ if .Values.gcp.enabled }}
+apiVersion: networking.gke.io/v1
+kind: ManagedCertificate
+metadata:
+  name: stord-cert
+spec:
+  domains:
+    - stord.bauerworld.io
+{{ end }}

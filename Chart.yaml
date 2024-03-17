@@ -1,0 +1,4 @@
+apiVersion: v2
+name: sre-app
+description: A Helm chart for the SRE Technical Challenge Application
+version: 0.1.0

@@ -1,0 +1,11 @@
+image:
+  repository: ghcr.io/stordco/sre-technical-challenge
+  tag: latest
+
+env:
+  DATABASE_URL: postgresql://postgres:password@sre-db-postgresql/sre-technical-challenge
+  PHX_HOST: localhost
+  SECRET_KEY_BASE: GWks+00R99rp4iCigXEDAP7WRQXFiTImOP0vIUmFyaNj1DGDXsMvEfSXtb7ITMKC
+
+gcp:
+  enabled: false
